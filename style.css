@@ -27,6 +27,7 @@ h1 {
     letter-spacing: 1.4px;
     text-align: center;
 }
+
 a.navbar-brand{
     padding-left: 41px;
 }
@@ -109,4 +110,8 @@ footer  {
     width: 100%;
     background-color: black;
     border: solid 1px #979797;
+}
+.card{
+    border: none;
+
 }
