@@ -6,12 +6,19 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+h1 {
+    font-weight: bold;
+}
 .navbar{
     height: 78px;
     background-color: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 
 
+}
+.navbar-nav ul{
+    padding-left: 40px;
 }
 .navbar li {
     font-family: Montserrat;
@@ -26,7 +33,27 @@ a.navbar-brand{
 
 li.navbar-item{
     padding-right: 41px;
+    padding-left: 41px;
 }
+.li.navbar-item.dropdown.show{
+
+}
+ #form-navbar {
+     margin-top: auto;
+    padding: 15px;
+    padding-bottom: 10px;
+
+}
+#form-control-sign-in{
+    height: 32px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+ #button-form-dropdown {
+     margin-top: 10px;
+     width: 212px;
+     border-radius: 8px;
+ }
 
 /* Forms */
 
