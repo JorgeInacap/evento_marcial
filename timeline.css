@@ -46,6 +46,7 @@
 }
 .container-timeline ul li .time span{
     position: absolute;
+    float: left;
 }
 container-timeline ul li .time span:first-child{
     left: -120px;
