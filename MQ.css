@@ -1,16 +1,23 @@
 @media (max-width: 1024px) {
     .container {
         width: auto;
+
     }
     .content{
         width: 500px;
+
+
     }
 
 }
 
 @media (max-width: 1000px) {
+    .container {
+        width: 700px;
+    }
     .content {
-        width: 800px;
+        width: 500px;
+
     }
 }
 
@@ -26,27 +33,40 @@
 
     }
     .content h2 {
-        font-size: 1em;
+        font-size: 20px;
         display: block;
     }
     #navbarSupportedContent{
         background: white;
         padding: auto;
     }
+    .btn-danger {
+        max-width: auto;
+        font-size: 12px;
+    }
 }
+
 
 @media (max-width: 400px) {
     .content {
-        width: auto;
-        font-size: 70%;
+        width: 250px;
+        font-size: 16px;
 
+    }
+    .col-sm-4 {
+        font-size: 12px;
     }
 
     .content button {
-        width: 50%;
+        width: 150px;
+        font-size: 10px;
+        font-weight: bold;
     }
 
 }
 @media (max-width: 320px) {
-
+   .content {
+       width: 200px;
+       font-size: 10px;
+   }
 }
