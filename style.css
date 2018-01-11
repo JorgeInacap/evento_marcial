@@ -1,5 +1,6 @@
 @import "carousel.css";
 @import "timeline.css";
+@import "MQ.css";
 
 body {
     font-family: Montserrat;
@@ -110,6 +111,7 @@ footer  {
     width: 100%;
     background-color: black;
     border: solid 1px #979797;
+    color: white;
 }
 .card{
     border: none;

@@ -1,0 +1,52 @@
+@media (max-width: 1024px) {
+    .container {
+        width: auto;
+    }
+    .content{
+        width: 500px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .content {
+        width: 800px;
+    }
+}
+
+
+
+@media (max-width: 960px) {
+    .container{
+        width: auto;
+
+    }
+    .content{
+        width: auto;
+
+    }
+    .content h2 {
+        font-size: 1em;
+        display: block;
+    }
+    #navbarSupportedContent{
+        background: white;
+        padding: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .content {
+        width: auto;
+        font-size: 70%;
+
+    }
+
+    .content button {
+        width: 50%;
+    }
+
+}
+@media (max-width: 320px) {
+
+}

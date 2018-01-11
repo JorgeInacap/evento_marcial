@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Evento Marcial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -10,7 +11,7 @@
 </head>
 <body>
 <div class="container">
-<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <a class="navbar-brand" href="#"><img src="img/LogoNavbar.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -63,9 +64,12 @@
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
+
     <div class="carousel-inner">
+
         <div class="carousel-item active">
-            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <div class="bg-overlay"></div>
+            <img class="first-slide" src="img/karate-2717178_1920.png" alt="First slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Practica tu Arte Marcial</h1>
@@ -75,7 +79,8 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <div class="bg-overlay"></div>
+            <img class="second-slide" src="img/karate-2717178_1920.png" alt="Second slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Another example headline.</h1>
@@ -85,7 +90,8 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <div class="bg-overlay"></div>
+            <img class="third-slide" src="img/karate-2717178_1920.png" alt="Third slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h1>One more for good measure.</h1>
@@ -133,64 +139,150 @@
 <!---- Final Form --->
 <!--- timeline --->
 <div class="container">
-<div class="text-center"><h1>Marzo</h1></div>
-<div class="timeline-container container-fluid">
-    <div class="content">
-        <div class="card">
-        <h2 class="card-title">
-            <div class="collapse" id="collapseExample">
-                <img  class="img-fluid col-lg-12" src="img/martial-arts-2481472_1920.png" alt="">
-                <p>Jueves 24 de Marzo 21 horas</p>
-                <button class="btn-danger btn-lg"> Mas info</button>
+        <div class="text-center"><h1>Marzo</h1></div>
+        <div class="timeline-container container-fluid">
+
+            <div class="content">
+
+                <img class="col-lg-12 collapse multi-collapse" id="multiCollapseExample1" src="img/martial-arts-2481472_1920.png" alt="">
+
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title"><a href=""  data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Torneo de Krav Maga</a></h2>
+
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title mq2">Ubicacion</h2>
+                                <p class="card-text">Ñuñoa</p>
+                                <p class="card-text">Santiago</p>
+                                <a href="#" class="btn  btn-lg btn-danger col-lg-12">Más Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <a href="#collapseExample" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample">Torneo de Krav Maga</a></h2>
+        </div>
+    <div class="timeline-container container-fluid">
 
-        <p class="card-text" style="max-width: 700px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda aut consectetur consequatur corporis deleniti doloremque doloribus eligendi est expedita, fugiat illo, nesciunt porro possimus praesentium rerum sit ullam voluptatibus?</p>
+        <div class="content">
+
+            <img class="col-lg-12 collapse multi-collapse" id="pico2" src="img/martial-arts-2481472_1920.png" alt="">
+
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title"><a href=""  data-toggle="collapse" data-target="#pico1 #pico2" aria-expanded="false" aria-controls="multiCollapseExample3 multiCollapseExample4">Torneo de Krav Maga</a></h2>
+
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 collapse multi-collapse" id="pico1">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Ubicacion</h2>
+                            <p class="card-text">Ñuñoa</p>
+                            <p class="card-text">Santiago</p>
+                            <a href="#" class="btn  btn-lg btn-danger col-lg-12">Más Info</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-</div>
+    <div class="timeline-container container-fluid">
 
-<div class="timeline-container container-fluid">
-    <div class="content">
-        <div class="card">
-        <h2 class="card-title">24 de marzo</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda aut consectetur consequatur corporis deleniti doloremque doloribus eligendi est expedita, fugiat illo, nesciunt porro possimus praesentium rerum sit ullam voluptatibus?</p>
-    </div>
-    </div>
-</div>
-<div class="timeline-container">
-    <div class="content">
+        <div class="content">
 
-        <h2><a href=""></a>24 de marzo</h2>
-        <div class="collapse" id="collapseExample">
-        <div class=" col-sm-2 col-offset-9 img-fluid"><img src="http://lorempixel.com/200/200/" alt=""></div>
+            <img class="col-lg-12 collapse multi-collapse" id="multiCollapseExample5" src="img/martial-arts-2481472_1920.png" alt="">
+
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title"><a href=""  data-toggle="collapse" data-target="#multiCollapseExample5 #mutiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample5 multiCollapseExample6">Torneo de Krav Maga</a></h2>
+
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 collapse multi-collapse" id="multiCollapseExample6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Ubicacion</h2>
+                            <p class="card-text">Ñuñoa</p>
+                            <p class="card-text">Santiago</p>
+                            <a href="#" class="btn  btn-lg btn-danger col-lg-12">Más Info</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <p class="col-sm-9" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda aut consectetur consequatur corporis deleniti doloremque doloribus eligendi est expedita, fugiat illo, nesciunt porro possimus praesentium rerum sit ullam voluptatibus?</p>
     </div>
-</div>
-<div class="timeline-container">
-    <div class="content">
+    <div class="timeline-container container-fluid">
 
-        <h2>24 de marzo</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda aut consectetur consequatur corporis deleniti doloremque doloribus eligendi est expedita, fugiat illo, nesciunt porro possimus praesentium rerum sit ullam voluptatibus?</p>
+        <div class="content">
+
+            <img class="col-lg-12 collapse multi-collapse" id="multiCollapseExample1" src="img/martial-arts-2481472_1920.png" alt="">
+
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title"><a href=""  data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Torneo de Krav Maga</a></h2>
+
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Ubicacion</h2>
+                            <p class="card-text">Ñuñoa</p>
+                            <p class="card-text">Santiago</p>
+                            <a href="#" class="btn  btn-lg btn-danger col-lg-12">Más Info</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
+
+
+
+
+
+
+   <div class="text-center"><h1>Abril</h1>
 </div>
 
-<div class="text-center"><h1>Abril</h1></div>
-</div>
 <!---footer -->
 <footer class="footer">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolor eaque, ipsa quam quasi quo! At, beatae culpa dignissimos earum impedit minima nisi, nostrum nulla odio officiis provident quisquam, repellendus.
+    <p></p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolor eaque, ipsa quam quasi quo! At, beatae culpa dignissimos earum impedit minima nisi, nostrum nulla odio officiis provident quisquam, repellendus.
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-<script type="text/javascript">
-    $(".input").focus(function() {
-        $(this).parent().addClass("focus");
-    })
-</script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(".input").focus(function() {
+            $(this).parent().addClass("focus");
+        })
+    </script>
+    <script src="js/modal.js"></script>
 </body>
 </html>
