@@ -119,3 +119,10 @@ footer  {
     border: none;
 
 }
+
+.card-profesores {
+    border: 1px #979797 solid !important;
+    padding-bottom: 20px;
+    display: flex;
+    box-shadow: #979797
+}
