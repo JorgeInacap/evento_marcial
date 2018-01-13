@@ -25,15 +25,15 @@
                 <a class="nav-link" href="#">Calendario <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Publicar Torneos</a>
+                <a class="nav-link" href="PublicatuTorneo.html">Publicar Torneos</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Profesores</a>
+                <a class="nav-link" href="./ListaProfesores.html">Profesores</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Quiero practicar</a>
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal" >Quiero practicar</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -111,7 +111,7 @@
     </a>
 </div>
 
-<!--- Forms --->
+<!--- Forms -->
 <div class="container-fluid">
     <div class="container">
         <div class="formBox">
@@ -136,8 +136,8 @@
         </div>
     </div>
 </div>
-<!---- Final Form --->
-<!--- timeline --->
+<!--- Final Form -->
+<!--- timeline -->
 <div class="container">
         <div class="text-center"><h1>Marzo</h1></div>
         <div class="timeline-container container-fluid">
@@ -268,6 +268,43 @@
 
    <div class="text-center"><h1>Abril</h1>
 </div>
+    <!---modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title sm-6 offset-5" id="exampleModalLabel">Profesores</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                <form class="">
+                    <div class="form-group sm-8 offset-4">
+                        <input type="email" class="form-input" placeholder="email">
+                    </div>
+                    <div class="form-group sm-8 offset-4">
+                        <input type="email sm-8 offset-4" class="form-input" placeholder="email">
+                    </div>
+                    <div class="form-group sm-8 offset-4">
+                        <input type="email" class="form-input" placeholder="email">
+                    </div>
+                    <div class="form-group sm-8 offset-4">
+                        <input type="email" class="form-input-lg" placeholder="email">
+                    </div>
+                    <div class="form-group sm-8 offset-4">
+                        <input type="email" class="form-input" placeholder="email">
+                    </div>
+                </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- ModalEnd -->
 
 <!---footer -->
 <footer class="footer">
