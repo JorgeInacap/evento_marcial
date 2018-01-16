@@ -126,3 +126,12 @@ footer  {
     display: flex;
     box-shadow: #979797
 }
+ul{
+    list-style-type: none;
+}
+.DetalledeProfesores{
+    padding-top: 60px;
+}
+.Profesor-Title{
+    font-weight: 800;
+}
