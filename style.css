@@ -151,3 +151,10 @@ li.active > a {
 .active li.active > a:hover {
     border-bottom: 3px solid grey;
 }
+.nan > .nav-tabs{
+    text-decoration: none;
+}
+
+.Modal-title{
+    padding-right: 10px;
+}

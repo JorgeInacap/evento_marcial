@@ -63,36 +63,39 @@
 
                 <!-- Form Publica tu torneo -->
                 <br><br>
-                <div class="container">
-                <h1 class="text-center">Publica tu torneo</h1>
+                <div class="container col-md-8">
+                <h1 class="text-center">Llena tu formulario</h1>
                 <form>
                         <div class="form-group">
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre del torneo">
                         </div>
                         <div class="form-group">
-                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                          <input type="text" class="form-control" id="exampleInputText" placeholder="Ciudad">
                         </div>
                         <div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <input type="text" class="form-control" id="exampleInputText1" placeholder="Comuna">
                         </div>
                         <div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <input type="text" class="form-control" id="exampleInputText2" placeholder="Disciplina">
                         </div>
                         <div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <input type="date" class="form-control" id="exampleInputText3" placeholder="fecha">
                         </div>
                         <div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                          <label for="exampleFormControlFile1">Ponga la foto de su torneo </label>
+                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="comment" placeholder="Tu Mensaje" cols="30" rows="6"></textarea>
                         </div>
                 
                         <button type="submit" class="btn btn-danger btn-lg btn-block">Publicar</button>
                       </form>
                     </div>
                     <br>
-                    <!---modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
+        <!---Modal --->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title sm-6 offset-5" id="exampleModalLabel">Profesores</h4>
@@ -101,37 +104,42 @@
                         </button>
                     </div>
                     <div class="modal-body">
+                        <form class="form-horizontal">
                             <div class="form-group">
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                  </div>
-                                  <div class="form-group">
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                  </div>
-                                  <div class="form-group">
-                                          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                  </div>
-                                  <div class="form-group">
-                                          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                  </div>
-                                  <div class="form-group">
-                                          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                  </div>
-                                  <div class="form-group">
-                                          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                  </div>
-                          
-                                  
-                                </form>
-                              </div>
-                              <br>
+                                <input type="text" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Rut">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Edad">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Ciudad">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Comuna">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Telefono (Fijo o Movil)">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Ingrese Contraseña">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Repita la Contraseña">
+                            </div>
+                        </form>
+                    </div>
                     <div class="modal-footer">
-                            <button type="submit" class="btn btn-danger btn-lg btn-block">Publicar</button>
+                        <button type="button" class="btn btn-danger btn-lg btn-block">Enviar</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!--- ModalEnd -->
                 <footer class="footer">
                         <p></p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolor eaque, ipsa quam quasi quo! At, beatae culpa dignissimos earum impedit minima nisi, nostrum nulla odio officiis provident quisquam, repellendus.
                     </footer>
