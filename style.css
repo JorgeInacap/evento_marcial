@@ -158,3 +158,48 @@ li.active > a {
 .Modal-title{
     padding-right: 40px;
 }
+.imagen-bg{
+    position: relative;
+    z-index: 1;
+}
+.container-fluid > .overlay-imagen-bg{
+    position: fixed;
+    min-height: 20%;
+    top: 0;
+    left:0;
+    bottom:0;
+    right: 0;
+}
+.overlay-imagen-bg{
+    height: 485px;
+    width: 80%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    bottom: 0;
+    overflow-y: scroll;
+    z-index: 9;
+    background-color: black;
+    opacity: 0.75;
+
+
+}
+.overlay-imagen-bg @media (max-width: 950px ) {
+    height: 400px;
+}
+
+.title-overlay-imagen-bg{
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    color: #ffffff;
+    padding: 100px 60px;
+}
+.lineas_derechas{
+    border-right: #000000  1px solid;
+    max-height: 100%;
+
+}
+#detalles-torneos{
+    padding-bottom: 50px;
+}

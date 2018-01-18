@@ -8,6 +8,10 @@
 
 
     }
+    .overlay-imagen-bg{
+        max-height: 400px;
+    }
+
 
 }
 
@@ -19,6 +23,7 @@
         width: 500px;
 
     }
+
 }
 
 
@@ -43,6 +48,9 @@
     .btn-danger {
         max-width: auto;
         font-size: 12px;
+    }
+    .overlay-imagen-bg{
+        max-height: 400px;
     }
 }
 
