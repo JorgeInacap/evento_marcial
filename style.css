@@ -163,7 +163,7 @@ li.active > a {
     z-index: 1;
 }
 .container-fluid > .overlay-imagen-bg{
-    position: fixed;
+    position: absolute;
     min-height: 20%;
     top: 0;
     left:0;
