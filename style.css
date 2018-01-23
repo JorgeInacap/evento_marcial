@@ -203,3 +203,27 @@ li.active > a {
 #detalles-torneos{
     padding-bottom: 50px;
 }
+.error1{
+    font-size: 144px;
+
+}
+.text-404{
+    padding-top: 50px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.ninja {
+    padding-top: 50px;
+    position:relative;
+    z-index: 10;
+}
+
+.grass{
+    background-color: #76AD0C;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    
+    
+}
