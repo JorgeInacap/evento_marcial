@@ -205,25 +205,32 @@ li.active > a {
 }
 .error1{
     font-size: 144px;
+    padding-top: 20px;
+    z-index: 11;
 
 }
 .text-404{
-    padding-top: 50px;
+    padding-top: 60px;
     font-size: 30px;
     letter-spacing: 2px;
+    font-weight: bolder;
+    z-index: 11;
 }
 .ninja {
     padding-top: 50px;
-    position:relative;
+    position: fixed;
     z-index: 10;
 }
 
 .grass{
-    background-color: #76AD0C;
-    height: 100px;
+    background-image: linear-gradient(-180deg, #76AD0C 0%, #497402 34%, #417505 82%);
+    height: 35%;
     width: 100%;
     position: absolute;
     z-index: 1;
+    bottom: 0;
+    border-radius: 50%/100px 100px 0 0;
     
     
 }
+
